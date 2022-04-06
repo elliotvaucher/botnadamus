@@ -29,7 +29,7 @@ def get_gif():
     response = requests.get("http://api.giphy.com/v1/gifs/random", params=parameters)
     random_gif = json.loads(response.text)
     global gif_url
-    gif_url = random_gif["data"]["bitly_url"]
+    gif_url = random_gif['data']['bitly_url']
     
     return(gif_url)
 
