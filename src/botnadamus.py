@@ -8,7 +8,9 @@ api = create_api()
 
 FILE_NAME = "src/last.txt"
 
-parameters = {environ["GIPHY_KEY"]}
+parameters = {
+    'api_key': environ["GIPHY_KEY"]
+    }
 
 def read_last_seen(FILE_NAME): 
     file_read = open(FILE_NAME, 'r')
