@@ -6,8 +6,6 @@ from os import environ
 
 api = create_api()
 
-parameters = environ["GIPHY_KEY"]
-
 FILE_NAME = "src/last.txt"
 
 def read_last_seen(FILE_NAME): 
@@ -25,6 +23,7 @@ def store_last_seen(FILE_NAME, last_seen_id):
 tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode="extended")
 
 def get_gif(): 
+    parameters = environ["GIPHY_KEY"]
     response = requests.get("http://api.giphy.com/v1/gifs/random", params=parameters)
     random_gif = json.loads(response.text)
     global gif_url
