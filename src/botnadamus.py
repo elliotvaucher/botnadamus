@@ -8,6 +8,8 @@ api = create_api()
 
 FILE_NAME = "src/last.txt"
 
+parameters = {environ["GIPHY_KEY"]}
+
 def read_last_seen(FILE_NAME): 
     file_read = open(FILE_NAME, 'r')
     last_seen_id = int(file_read.read().strip())
@@ -23,7 +25,6 @@ def store_last_seen(FILE_NAME, last_seen_id):
 tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode="extended")
 
 def get_gif(): 
-    parameters = environ["GIPHY_KEY"]
     response = requests.get("http://api.giphy.com/v1/gifs/random", params=parameters)
     random_gif = json.loads(response.text)
     global gif_url
