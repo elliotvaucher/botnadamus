@@ -1,1 +1,2 @@
-web: python src/botnadamus.py
+web: python src/server.py
+worker: python src/botnadamus.py
