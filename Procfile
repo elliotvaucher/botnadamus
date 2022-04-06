@@ -1,1 +1,1 @@
-worker: python /src/botnadamus.py
+worker: python botnadamus.py
