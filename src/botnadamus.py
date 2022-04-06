@@ -40,6 +40,3 @@ for tweet in reversed(tweets):
         get_gif()
         api.update_status('@' + tweet.user.screen_name + ' ' + gif_url, tweet.id)
         store_last_seen(FILE_NAME, tweet.id)
-
-if __name__ == "__main__":
-    create_api()
