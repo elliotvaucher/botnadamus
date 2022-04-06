@@ -9,7 +9,7 @@ parameters = {
     'api_key': "GIPHY_KEY"
 }
 
-FILE_NAME = "last.txt"
+FILE_NAME = "src/last.txt"
 
 def read_last_seen(FILE_NAME): 
     file_read = open(FILE_NAME, 'r')
