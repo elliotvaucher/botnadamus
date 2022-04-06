@@ -2,12 +2,11 @@ import tweepy
 import requests
 import json
 from config import create_api
+from os import environ
 
 api = create_api()
 
-parameters = {
-    'api_key': "GIPHY_KEY"
-}
+parameters = environ["GIPHY_KEY"]
 
 FILE_NAME = "src/last.txt"
 
