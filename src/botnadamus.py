@@ -6,7 +6,7 @@ from os import environ
 
 api = create_api()
 
-FILE_NAME = "src/last.txt"
+FILE_NAME = "last.txt"
 
 parameters = {
     'api_key': environ["GIPHY_KEY"]
