@@ -3,10 +3,11 @@ import requests
 import json
 from config import create_api
 from os import environ
+from time import sleep
 
 api = create_api()
 
-FILE_NAME = "last.txt"
+FILE_NAME = "src/last.txt"
 
 parameters = {
     'api_key': environ["GIPHY_KEY"]
@@ -46,3 +47,4 @@ def main():
 if __name__ == "__main__":
     while True:
         main()
+        sleep(15)
