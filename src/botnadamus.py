@@ -4,8 +4,11 @@ import json
 from config import create_api
 from os import environ
 from time import sleep
+import redis
 
 api = create_api()
+
+r = redis.from_url(os.environ.get("REDIS_URL"))
 
 FILE_NAME = "src/last.txt"
 
