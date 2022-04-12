@@ -16,18 +16,6 @@ parameters = {
 
 last_tweet_id = {}
 
-""" def read_last_seen(FILE_NAME): 
-    file_read = open(FILE_NAME, 'r')
-    last_seen_id = int(file_read.read().strip())
-    file_read.close()
-    return last_seen_id
-
-def store_last_seen(FILE_NAME, last_seen_id): 
-    file_write = open(FILE_NAME, 'w')
-    file_write.write(str(last_seen_id))
-    file_write.close()
-    return """
-
 def read_last_seen(): 
     last_seen_id = last_tweet_id.get('tweet_id')
     return last_seen_id
