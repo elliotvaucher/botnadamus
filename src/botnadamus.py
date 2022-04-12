@@ -15,14 +15,14 @@ parameters = {
     'api_key': environ["GIPHY_KEY"]
     }
 
-last_tweet_id = {}
+r.mset({"tweet_id": 1512398589099716608})
 
 def read_last_seen(): 
-    last_seen_id = last_tweet_id.get('tweet_id')
+    last_seen_id = r.get('tweet_id')
     return last_seen_id
 
 def store_last_seen(last_seen_id):
-    last_tweet_id['tweet_id'] = last_seen_id
+    r['tweet_id'] = last_seen_id
     return  
 
 def get_gif(): 
@@ -34,7 +34,7 @@ def get_gif():
     return(gif_url)    
 
 def main():
-    tweets = api.mentions_timeline(since_id=read_last_seen(), tweet_mode="extended")
+    tweets = api.mentions_timeline(since_id=read_last_seen(), count=1, tweet_mode="extended")
     
     for tweet in reversed(tweets): 
         if tweet.user.screen_name != "botnadamus":
