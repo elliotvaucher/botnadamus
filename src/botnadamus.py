@@ -2,6 +2,7 @@ import tweepy
 import requests
 import json
 from config import create_api
+import os
 from os import environ
 from time import sleep
 import redis
