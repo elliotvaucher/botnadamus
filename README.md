@@ -24,7 +24,7 @@ Under the robotic hood is a simple program that performs the following instructi
 
 As you can see, the program is amazingly simple. Yet, the results are powerful. **Because human mind always seeks to generate meaning**. Even the simplest form of randomized message is interpreted as a sign of some powerful symbolic divinity. 
 
-When I asked him what I was doing wrong, on the very day where I managed to resolve all issues and finally make him work autonomously on a [Heroku Dyno](https://www.heroku.com/dynos), he gave me this answer : 
+When I asked him "what I was doing wrong", on the very day where I managed to resolve all issues and finally make him work autonomously on a [Heroku Dyno](https://www.heroku.com/dynos), he gave me this answer : 
 
 https://user-images.githubusercontent.com/67040832/163135240-0f56c20f-f8b9-46a2-9aa8-54fdbfa171d7.mp4
 
