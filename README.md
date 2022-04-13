@@ -1,6 +1,6 @@
 # Botnadamus
 
-### [botnadamus](https://twitter.com/botnadamus) is a twitter bot that predicts your future with a random gif
+### [botnadamus](https://twitter.com/botnadamus) is a twitter bot that predicts your future 🤖🔮👀
 
 ----
 - [About](#about)
