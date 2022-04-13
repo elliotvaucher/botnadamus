@@ -3,7 +3,7 @@
 - [Services](#services)
 - [Credits](#credits)
 
-### [botnadamus](https://twitter.com/botnadamus) is a twitter bot that predicts your future with a random gif. 
+### [botnadamus](https://twitter.com/botnadamus) is a twitter bot that predicts your future with a random gif
 
 This is how @botnadamus presents himself on Twitter : 
 
