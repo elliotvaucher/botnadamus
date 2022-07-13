@@ -47,4 +47,8 @@ The main program uses the following services :
 ## Credits 
 
 The main building blocks to create a Twitter bot were taken from this tutorial : https://realpython.com/twitter-bot-python-tweepy/. 
-The step by step guide for deploying a Twitter bot on Heroku comes from here : https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39.
+The step by step guide for deploying a Twitter bot on Heroku comes from here : https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39. Note : I skipped the steps involving the creation of a Flask web server, and used the [Heroku Redis](https://devcenter.heroku.com/articles/heroku-redis) option instead. 
+
+## Important Disclaimer 
+
+Botnadamus is an art project. It's not optimized for large-scale development. Sometimes, Heroku are doing maintenance on their servers, and it happens that Botnadamus retweets answers he already posted on your solicitations. It's not a big deal I suppose. It will only get you more Twitter activity ;). But thanks for the understanding. I will find a way to optimize this issue in the future. 
