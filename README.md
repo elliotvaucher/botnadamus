@@ -51,4 +51,4 @@ The step by step guide for deploying a Twitter bot on Heroku comes from here : h
 
 ## Important Disclaimer 
 
-Botnadamus is an art project. It's not optimized for large-scale development. Sometimes, Heroku are doing maintenance on their servers, and it happens that Botnadamus retweets answers he already posted on your solicitations. It's not a big deal I suppose. It will only get you more Twitter activity ;). But thanks for the understanding. I will find a way to optimize this issue in the future. 
+Botnadamus is an art project. It's not optimized for large-scale development. Sometimes, Heroku are doing maintenance on their servers, and it happens that Botnadamus retweets answers he already posted on your solicitations. It's not a big deal I suppose. It will only get you more Twitter activity 😉. But thanks for the understanding. I will find a way to optimize this issue in the future. 
