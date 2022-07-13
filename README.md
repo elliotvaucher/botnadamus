@@ -1,6 +1,9 @@
+![OpenaAI, Dall·e, generated image](https://user-images.githubusercontent.com/67040832/178721077-831c1cf4-a465-4d7d-a0ff-584b043f0cd0.png)
+*This image was created with the [OpenAI Dall·e generator](https://labs.openai.com/s/tkyK99FyNLdvPwqYnl33WvQt), using the prompt "an abstract fortune-telling twitter bot in matrix green"*
+
 # Botnadamus
 
-### [botnadamus](https://twitter.com/botnadamus) is a twitter bot that predicts your future 🤖🔮👀
+### [botnadamus](https://twitter.com/botnadamus) is a twitter bot that predicts your future 🔮
 
 ----
 - [About](#about)
