@@ -22,7 +22,7 @@ parameters = {
 
 # setting the initial last tweet_id 
 # at program initialization
-r.mset({"tweet_id": 1512398589099716608})
+r.mset({"tweet_id": 1514193229918388229})
 
 # function that reads tweet_id from 
 # redis server
