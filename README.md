@@ -17,6 +17,8 @@ This is how @botnadamus presents himself on Twitter :
 > Once your question is clear enough, ask it. Don’t forget the 
 > @botnadamus mention.
 
+You can test it [here](https://twitter.com/botnadamus) !
+
 Under the robotic hood is a simple program that performs the following instructions : 
 
 - Look for new mentions on his timeline (@botnadamus)
