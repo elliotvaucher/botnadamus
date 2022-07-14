@@ -28,15 +28,15 @@ Under the robotic hood is a simple program that performs the following instructi
 - If new mention : fetches a random gif from [Giphy](https://giphy.com/) / posts it in reply to the orginal tweet.
 - If no new mention : sleeps and starts back. 
 
-As you can see, the program is amazingly simple. Yet, the results are powerful. **Because human mind always seeks to generate meaning**. Even the simplest form of randomized message is interpreted as a sign of some powerful symbolic divinity. 
+As you can see, the program is amazingly simple. Yet, the results are powerful. **Because humans always seek to generate meaning**. Even the simplest random messages are interpreted as a sign of some powerful symbolic divinity. 
 
-When I asked him "what I was doing wrong", on the very day where I managed to resolve all issues and finally make him work autonomously on a [Heroku Dyno](https://www.heroku.com/dynos), he gave me this answer : 
+When I asked botnadamus "what am I doing wrong", on the very day I managed to resolve all issues and finally make him work autonomously on a [Heroku Dyno](https://www.heroku.com/dynos), he gave me this answer : 
 
 https://user-images.githubusercontent.com/67040832/163135240-0f56c20f-f8b9-46a2-9aa8-54fdbfa171d7.mp4
 
 This is how our brains work : it **secretes meaning**. The intelligence we perceive in machines and progams is a transfer of our own power of imagination. 
 
-Go ahead, ask botnadamus anything. And try to pretend you didn't attached meaning to the pure randomness of his answer.
+Go ahead, ask botnadamus anything. And try to pretend you didn't make sense with the pure randomness of his answer.
 
 ## Services
 
