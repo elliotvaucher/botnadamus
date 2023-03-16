@@ -22,7 +22,7 @@ parameters = {
 
 # setting the initial last tweet_id 
 # at program initialization
-r.mset({"tweet_id": 1514193229918388229})
+r.set("tweet_id", 1552419431783010305)
 
 # function that reads tweet_id from 
 # redis server
@@ -33,7 +33,7 @@ def read_last_seen():
 # function that stores the last_seen_id 
 # to redis server
 def store_last_seen(last_seen_id):
-    r['tweet_id'] = last_seen_id
+    r.set('tweet_id', last_seen_id)
     return  
 
 # function that calls the giphy random endpoint
