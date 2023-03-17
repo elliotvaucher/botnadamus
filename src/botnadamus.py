@@ -6,13 +6,15 @@ import os
 from os import environ
 from time import sleep
 import redis
+from urllib.parse import urlparse
 
 # creating api object from config.py
 api = create_api()
 
 # creating redis object to SET 
 # and GET tweet_id
-r = redis.from_url(os.environ.get("REDIS_URL"))
+url = urlparse(os.environ.get("REDIS_URL"))
+r = redis.Redis(host=url.hostname, port=url.port, password=url.password, ssl=True, ssl_cert_reqs=None)
 
 # passing the GIPHY_KEY value to 
 # access Giphy API
